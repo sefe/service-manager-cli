@@ -1,0 +1,35 @@
+{
+  "Title": "[Company] [Tribe] Release new/updates to AppName",
+  "Reason": "Automated Release for AppName.",
+  "Area": "Applications\\AppName",
+  "Priority": "Low",
+  "Notes": "",
+  "SupportGroup": "3rd Line Teams\\TribeNamee",
+  "ScheduledStartDate": "now",
+  "ScheduledEndDate": "in 1 hour",
+  "ImplementationPlan": {
+    "PreProduction": "No Pre-prod is used for AppName.",
+    "Production": "Execute Azure DevOps release $(Release.ReleaseName) with build $(Release.Artifacts.NewBuild.BuildNumber)",
+    "Rollback": "Please re-run the previously successful PROD Release version"
+  },
+  "TestPlan": "AppName is tested in production by the business, no UAT sign-off.",
+  "Customer": "SEFE",
+  "Approvers": [],
+  "ImpactQuestionResponses": {
+    "OutageOrRestrictedFunctionality": false,
+    "ServiceImpactedOnFailure": false,
+    "Criticality": "Minor"
+  },
+  "RiskQuestionResponses": {
+    "Question1": true,
+    "Question2": true,
+    "Question3": true,
+    "Question4": true,
+    "Question5": true,
+    "Question6": true
+  },
+  "TemplateName": "Standard Change - TribeName AppName",
+  "InitialActivityToComplete": "Submit CR",
+  "BranchingStrategy": "GitHubFlow",
+  "TeamProjectName": "AzureDevOpsProjectName"
+}
