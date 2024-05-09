@@ -28,4 +28,4 @@ SEFE - [Visit us online](https://www.sefe.eu/)
 
 ## License
 
-This project is licensed under the [Apache 2.0] License - see the LICENSE-2.0.txt file for details
+This project is licensed under the [Apache 2.0] License - see the LICENSE-2.0.txt file for details.
