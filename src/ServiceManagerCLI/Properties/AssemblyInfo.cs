@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("ServiceManagerCLI")]
 [assembly: AssemblyCopyright("Copyright \u00a9 2024")]
 [assembly: AssemblyTrademark("SEFE")]
-[assembly: AssemblyCulture("en-GB")]
+[assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from

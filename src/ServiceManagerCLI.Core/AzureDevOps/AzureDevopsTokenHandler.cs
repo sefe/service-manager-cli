@@ -1,10 +1,10 @@
 ﻿using System;
+using System.Threading;
 using Azure.Core;
 using Azure.Identity;
-using System.Threading;
 using ServiceManagerCLI.Config.Dtos;
 
-namespace Trading.ServiceManagerCLI.Core.AzureDevOps
+namespace ServiceManagerCLI.Core.AzureDevOps
 {
     public interface IAzureDevOpsTokenHandler
     {

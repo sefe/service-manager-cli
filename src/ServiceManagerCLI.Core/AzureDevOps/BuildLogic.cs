@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using RestSharp;
 using ServiceManagerCLI.Config.Dtos;
 
-namespace Trading.ServiceManagerCLI.Core.AzureDevOps
+namespace ServiceManagerCLI.Core.AzureDevOps
 {
     public class BuildLogic
     {

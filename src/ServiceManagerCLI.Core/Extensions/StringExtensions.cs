@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Trading.ServiceManagerCLI.Core.Extensions
+namespace ServiceManagerCLI.Core.Extensions
 {
     public static class StringExtensions
     {

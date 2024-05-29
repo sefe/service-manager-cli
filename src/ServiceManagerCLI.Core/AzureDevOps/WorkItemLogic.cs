@@ -8,9 +8,9 @@ using Microsoft.TeamFoundation.WorkItemTracking.WebApi.Models;
 using Microsoft.VisualStudio.Services.WebApi;
 using RestSharp;
 using ServiceManagerCLI.Config.Dtos;
-using Trading.ServiceManagerCLI.Core.Arguments;
+using ServiceManagerCLI.Core.Arguments;
 
-namespace Trading.ServiceManagerCLI.Core.AzureDevOps
+namespace ServiceManagerCLI.Core.AzureDevOps
 {
     public class WorkItemLogic
     {
