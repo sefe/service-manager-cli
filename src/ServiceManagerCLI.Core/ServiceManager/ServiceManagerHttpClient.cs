@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace Trading.ServiceManagerCLI.Core.ServiceManager
+namespace ServiceManagerCLI.Core.ServiceManager
 {
     public class ServiceManagerHttpClient
     {

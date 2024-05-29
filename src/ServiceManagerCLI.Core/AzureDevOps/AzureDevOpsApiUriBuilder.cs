@@ -1,8 +1,8 @@
 ﻿using System;
 using ServiceManagerCLI.Config.Dtos;
-using Trading.ServiceManagerCLI.Core.Extensions;
+using ServiceManagerCLI.Core.Extensions;
 
-namespace Trading.ServiceManagerCLI.Core.AzureDevOps
+namespace ServiceManagerCLI.Core.AzureDevOps
 {
     public static class AzureDevOpsApiUriBuilder
     {

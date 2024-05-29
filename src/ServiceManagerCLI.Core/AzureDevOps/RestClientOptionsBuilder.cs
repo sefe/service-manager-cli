@@ -3,7 +3,7 @@ using RestSharp;
 using RestSharp.Authenticators.OAuth2;
 using ServiceManagerCLI.Config.Dtos;
 
-namespace Trading.ServiceManagerCLI.Core.AzureDevOps
+namespace ServiceManagerCLI.Core.AzureDevOps
 {
     public class RestClientOptionsBuilder
     {

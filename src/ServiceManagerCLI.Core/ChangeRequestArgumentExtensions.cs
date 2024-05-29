@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Trading.ServiceManagerCLI.Core
+namespace ServiceManagerCLI.Core
 {
     public static class ChangeRequestArgumentExtensions
     {

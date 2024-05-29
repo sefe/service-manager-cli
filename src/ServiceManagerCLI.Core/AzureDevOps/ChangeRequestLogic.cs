@@ -9,10 +9,10 @@ using Microsoft.TeamFoundation.Build.WebApi;
 using Newtonsoft.Json;
 using RestSharp;
 using ServiceManagerCLI.Config.Dtos;
-using Trading.ServiceManagerCLI.Core.Arguments;
-using Trading.ServiceManagerCLI.Core.ServiceManager;
+using ServiceManagerCLI.Core.Arguments;
+using ServiceManagerCLI.Core.ServiceManager;
 
-namespace Trading.ServiceManagerCLI.Core.AzureDevOps
+namespace ServiceManagerCLI.Core.AzureDevOps
 {
     public class ChangeRequestLogic
     {

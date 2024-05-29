@@ -1,11 +1,11 @@
-﻿using Microsoft.VisualStudio.Services.Common;
-using Microsoft.VisualStudio.Services.WebApi;
-using System;
+﻿using System;
 using Microsoft.VisualStudio.Services.Client;
+using Microsoft.VisualStudio.Services.Common;
+using Microsoft.VisualStudio.Services.WebApi;
 using ServiceManagerCLI.Config.Dtos;
-using Trading.ServiceManagerCLI.Core.Extensions;
+using ServiceManagerCLI.Core.Extensions;
 
-namespace Trading.ServiceManagerCLI.Core.AzureDevOps
+namespace ServiceManagerCLI.Core.AzureDevOps
 {
     public interface IVssConnectionFactory
     {

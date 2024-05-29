@@ -1,10 +1,10 @@
 ﻿using System;
-using Trading.ServiceManagerCLI.Core.Arguments;
-using Trading.ServiceManagerCLI.Core.ServiceManager;
-using ImpactQuestionResponses = Trading.ServiceManagerCLI.Core.ServiceManager.ImpactQuestionResponses;
-using RiskQuestionResponses = Trading.ServiceManagerCLI.Core.ServiceManager.RiskQuestionResponses;
+using ServiceManagerCLI.Core.Arguments;
+using ServiceManagerCLI.Core.ServiceManager;
+using ImpactQuestionResponses = ServiceManagerCLI.Core.ServiceManager.ImpactQuestionResponses;
+using RiskQuestionResponses = ServiceManagerCLI.Core.ServiceManager.RiskQuestionResponses;
 
-namespace Trading.ServiceManagerCLI.Core
+namespace ServiceManagerCLI.Core
 {
     public class ChangeRequestModel : SprintChangeRequestModel
     {

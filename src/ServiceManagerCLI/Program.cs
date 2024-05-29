@@ -6,10 +6,10 @@ using CommandLine;
 using Newtonsoft.Json;
 using ServiceManagerCLI.Config;
 using ServiceManagerCLI.Config.Dtos;
-using Trading.ServiceManagerCLI.Core.Arguments;
-using Trading.ServiceManagerCLI.Core.AzureDevOps;
+using ServiceManagerCLI.Core.Arguments;
+using ServiceManagerCLI.Core.AzureDevOps;
 
-namespace Trading.ServiceManagerCLI
+namespace ServiceManagerCLI
 {
     // Sample cmd line -
     // createcr -s "http://servicemanagerapidv/servicemanagerutils" -c "https://vsrm.dev.azure.com/org" -b "BuildNumber_21.11.22.1" -r "ReleaseNumber_21.11.22.1-Release_01" -u "user" -p "cr-inputs.json" -i "15151" -m "comm-inputs.json"

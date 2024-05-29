@@ -1,4 +1,4 @@
-﻿namespace Trading.ServiceManagerCLI.Core.Arguments
+﻿namespace ServiceManagerCLI.Core.Arguments
 {
     public class CommSettings
     {

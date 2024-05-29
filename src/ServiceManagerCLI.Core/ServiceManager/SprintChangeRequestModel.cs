@@ -1,7 +1,7 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
+using Newtonsoft.Json;
 
-namespace Trading.ServiceManagerCLI.Core.ServiceManager
+namespace ServiceManagerCLI.Core.ServiceManager
 {
     public class SprintChangeRequestModel
     {
