@@ -6,9 +6,9 @@ trigger:
 - feature/test-branch
 
 pool:
-  name: '$(variables.AzureDevOpsPool)'
+  name: BUILD-DOTNET-01
 
-variables:
+variables:  
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
