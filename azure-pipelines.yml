@@ -6,7 +6,7 @@ trigger:
 - feature/test-branch
 
 pool:
-  name: '$(buildpool)'
+  name: '$(variables.AzureDevOpsPool)'
 
 variables:
   solution: '**/*.sln'
